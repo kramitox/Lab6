@@ -25,6 +25,6 @@ private:
 	GLuint index;
 	Clock clock;
 	Time elapsed;
-
+	void updateCube();
 	float rotationAngle = 0.0f;
 };
